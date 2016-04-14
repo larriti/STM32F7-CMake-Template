@@ -1,2 +1,2 @@
-# STM32F7_CMake_Templete
-stm32f7_templete on linux
+# STM32F7-CMake-Template
+### stm32f7-templete on linux
