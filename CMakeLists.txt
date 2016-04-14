@@ -1,26 +1,24 @@
-# CMake 最低版本号要求
+# CMake minimum version
 cmake_minimum_required (VERSION 3.1)
 
-# 项目信息
+# Project Infomation
 project( Template )
 enable_language(ASM)
 
-# 设置输出路径
-set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)
-set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR}/lib)
+# Reset output path
+set (EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)
+set (LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR}/lib)
 
 # STDLIB
-# add_subdirectory (Libraries)
 set (CMAKE_SHARED_LIBRARY_LINK_C_FLAGS)
 
-# 包含的头文件
+# Set include path
 include_directories (Drivers/CMSIS/Device/Include )
 include_directories (Drivers/CMSIS/Include )
 include_directories (Drivers/STM32F7xx_HAL_Driver/Inc)
 include_directories (User/Include)
 
-
-# 需要编译的文件
+# The need build source path
 aux_source_directory (User/Source/ DIR_USER_SRCS)
 aux_source_directory (Drivers/CMSIS/Device/Source DIR_CMSIS_SRCS)
 
@@ -43,16 +41,27 @@ set (CMAKE_ASM_FLAGS "-mthumb -mcpu=cortex-m7 -mfpu=fpv5-sp-d16 -mfloat-abi=soft
 set (CMAKE_EXE_LINKER_FLAGS "-Wl,--gc-sections -mthumb -mcpu=cortex-m7 -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -mabi=aapcs" CACHE INTERNAL "executable linker flags")
 set (CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -T ${CMAKE_SOURCE_DIR}/ldscripts/STM32F746NGHx_FLASH.ld")
 
-# 导入外部静态链接文件
+# Load the the extern library
 add_library (STM32F7xx_HAL_Driver STATIC IMPORTED)
 set_property (TARGET STM32F7xx_HAL_Driver PROPERTY IMPORTED_LOCATION ${CMAKE_SOURCE_DIR}/Drivers/Build/lib/libSTM32F7xx_HAL_Driver.a)
 
-#指定生成目标
+# Generate the target
 add_executable (${CMAKE_PROJECT_NAME}.elf ${DIR_USER_SRCS} ${DIR_CMSIS_SRCS} ${CMAKE_SOURCE_DIR}/Drivers/CMSIS/Device/Source/startup/startup_stm32f746xx.s)
 
-# 链接静态库
+# Link the library to the target
 target_link_libraries (${CMAKE_PROJECT_NAME}.elf STM32F7xx_HAL_Driver)
 
-#生成二进制文件
-add_custom_target(${CMAKE_PROJECT_NAME}.bin ALL arm-none-eabi-objcopy -Obinary "${EXECUTABLE_OUTPUT_PATH}/${CMAKE_PROJECT_NAME}.elf" "${EXECUTABLE_OUTPUT_PATH}/${CMAKE_PROJECT_NAME}.bin" DEPENDS ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_PROJECT_NAME}.elf)
+# Generate the binary file
+add_custom_target (${CMAKE_PROJECT_NAME}.bin ALL arm-none-eabi-objcopy -Obinary "${EXECUTABLE_OUTPUT_PATH}/${CMAKE_PROJECT_NAME}.elf" "${EXECUTABLE_OUTPUT_PATH}/${CMAKE_PROJECT_NAME}.bin" DEPENDS ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_PROJECT_NAME}.elf)
+
+# Generate the hex file
+add_custom_target (${CMAKE_PROJECT_NAME}.hex ALL arm-none-eabi-objcopy -Oihex "${EXECUTABLE_OUTPUT_PATH}/${CMAKE_PROJECT_NAME}.elf" "${EXECUTABLE_OUTPUT_PATH}/${CMAKE_PROJECT_NAME}.hex" DEPENDS ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_PROJECT_NAME}.elf)
+
+# Echo the size Infomation
 add_custom_target (size ALL arm-none-eabi-size "${EXECUTABLE_OUTPUT_PATH}/${CMAKE_PROJECT_NAME}.elf" DEPENDS ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_PROJECT_NAME}.elf)
+
+# Make flash to the board by st-link
+add_custom_target (flash COMMAND st-flash write ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_PROJECT_NAME}.bin 0x8000000)
+
+# Make clean-all
+add_custom_target (clean-all COMMAND rm -rf ${CMAKE_BINARY_DIR}/*)
