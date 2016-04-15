@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers
+CMAKE_SOURCE_DIR = /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build
+CMAKE_BINARY_DIR = /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/STM32F7xx_HAL_Driver.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_corte
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_iwdg.
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_lptim
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_e
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_e
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_e
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.o.p
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.c.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_e
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.c.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdif
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard_ex.c.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smart
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_e
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart.c.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_usart
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_ex.c.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash_
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_ex.c.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp_
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_t
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c.o.requires:
 
@@ -683,16 +683,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c.
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c.o.requires:
 
@@ -707,16 +707,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.o.requires:
 
@@ -731,16 +731,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.o.requires:
 
@@ -755,16 +755,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_e
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.o.requires:
 
@@ -779,16 +779,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c.o.requires:
 
@@ -803,16 +803,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c.o.requires:
 
@@ -827,16 +827,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smartcard.c.o.requires:
 
@@ -851,16 +851,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_smart
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c.o.requires:
 
@@ -875,16 +875,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c.o.requires:
 
@@ -899,16 +899,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.o.requires:
 
@@ -923,16 +923,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.o.requires:
 
@@ -947,16 +947,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.o.requires:
 
@@ -971,16 +971,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.c.o.requires:
 
@@ -995,16 +995,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.o.requires:
 
@@ -1019,16 +1019,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_e
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.o.requires:
 
@@ -1043,16 +1043,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_e
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.o.requires:
 
@@ -1067,16 +1067,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.c.o.requires:
 
@@ -1091,16 +1091,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_e
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c.o.requires:
 
@@ -1115,16 +1115,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.c.
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c.o.requires:
 
@@ -1139,16 +1139,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cec.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.c.o.requires:
 
@@ -1163,16 +1163,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_wwdg.
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.c.o.requires:
 
@@ -1187,16 +1187,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_irda.
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.o.requires:
 
@@ -1211,16 +1211,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c.o.requires:
 
@@ -1235,16 +1235,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.o.requires:
 
@@ -1259,16 +1259,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c.o.requires:
 
@@ -1283,16 +1283,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c.o.requires:
 
@@ -1307,16 +1307,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.o.requires:
 
@@ -1331,16 +1331,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c.o.requires:
 
@@ -1355,16 +1355,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.c.o.requires:
 
@@ -1379,16 +1379,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_e
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.c.o.requires:
 
@@ -1403,16 +1403,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.o.requires:
 
@@ -1427,16 +1427,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c.o.requires:
 
@@ -1451,16 +1451,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.o.requires:
 
@@ -1475,16 +1475,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.o.requires:
 
@@ -1499,16 +1499,16 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_e
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c.o: CMakeFiles/STM32F7xx_HAL_Driver.dir/flags.make
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c.o: ../STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c.o"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c.o"
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c.i"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c.i
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c > CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c.i
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c.s"
-	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c.s
+	arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c -o CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c.s
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c.o.requires:
 
@@ -1651,7 +1651,7 @@ lib/libSTM32F7xx_HAL_Driver.a: CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL
 lib/libSTM32F7xx_HAL_Driver.a: CMakeFiles/STM32F7xx_HAL_Driver.dir/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cryp.c.o
 lib/libSTM32F7xx_HAL_Driver.a: CMakeFiles/STM32F7xx_HAL_Driver.dir/build.make
 lib/libSTM32F7xx_HAL_Driver.a: CMakeFiles/STM32F7xx_HAL_Driver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Linking C static library lib/libSTM32F7xx_HAL_Driver.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Linking C static library lib/libSTM32F7xx_HAL_Driver.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/STM32F7xx_HAL_Driver.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/STM32F7xx_HAL_Driver.dir/link.txt --verbose=$(VERBOSE)
 
@@ -1729,6 +1729,6 @@ CMakeFiles/STM32F7xx_HAL_Driver.dir/clean:
 .PHONY : CMakeFiles/STM32F7xx_HAL_Driver.dir/clean
 
 CMakeFiles/STM32F7xx_HAL_Driver.dir/depend:
-	cd /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/STM32F7xx_HAL_Driver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/STM32F7xx_HAL_Driver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/STM32F7xx_HAL_Driver.dir/depend
 

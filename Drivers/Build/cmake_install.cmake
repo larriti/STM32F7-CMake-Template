@@ -1,4 +1,4 @@
-# Install script for directory: /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers
+# Install script for directory: /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

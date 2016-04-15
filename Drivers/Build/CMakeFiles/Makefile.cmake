@@ -110,5 +110,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/clean-all.dir/DependInfo.cmake"
   "CMakeFiles/STM32F7xx_HAL_Driver.dir/DependInfo.cmake"
   )

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers
+CMAKE_SOURCE_DIR = /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build
+CMAKE_BINARY_DIR = /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -109,6 +109,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named clean-all
+
+# Build rule for target.
+clean-all: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clean-all
+.PHONY : clean-all
+
+# fast build rule for target.
+clean-all/fast:
+	$(MAKE) -f CMakeFiles/clean-all.dir/build.make CMakeFiles/clean-all.dir/build
+.PHONY : clean-all/fast
 
 #=============================================================================
 # Target rules for targets named STM32F7xx_HAL_Driver
@@ -1777,6 +1790,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... clean-all"
 	@echo "... edit_cache"
 	@echo "... STM32F7xx_HAL_Driver"
 	@echo "... STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o"

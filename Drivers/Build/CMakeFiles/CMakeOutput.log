@@ -1,4 +1,4 @@
-The system is: Linux - 4.4.5-1-ARCH - x86_64
+The system is: Linux - 4.5.0-1-ARCH - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp
+Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c9dd0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c9dd0.dir/build.make CMakeFiles/cmTC_c9dd0.dir/build
-make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c9dd0.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_c9dd0.dir/testCCompiler.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_c9dd0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9dd0.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_c9dd0.dir/testCCompiler.c.o  -o cmTC_c9dd0 -rdynamic 
-make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_6b5c0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6b5c0.dir/build.make CMakeFiles/cmTC_6b5c0.dir/build
+make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b5c0.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_6b5c0.dir/testCCompiler.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_6b5c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b5c0.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_6b5c0.dir/testCCompiler.c.o  -o cmTC_6b5c0 -rdynamic 
+make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp
+Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_857b3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_857b3.dir/build.make CMakeFiles/cmTC_857b3.dir/build
-make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_857b3.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_857b3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_857b3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_857b3.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_857b3.dir/CMakeCCompilerABI.c.o  -o cmTC_857b3 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_31444/fast"
+/usr/bin/make -f CMakeFiles/cmTC_31444.dir/build.make CMakeFiles/cmTC_31444.dir/build
+make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31444.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_31444.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_31444
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31444.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_31444.dir/CMakeCCompilerABI.c.o  -o cmTC_31444 -rdynamic  
 使用内建 specs。
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper
@@ -59,23 +59,23 @@ COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper
 gcc 版本 5.3.0 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_857b3' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrg0fTC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_857b3 /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_857b3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o
-make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_31444' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc731tBo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_31444 /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_31444.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o
+make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_857b3/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_857b3.dir/build.make CMakeFiles/cmTC_857b3.dir/build]
-  ignore line: [make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_857b3.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_857b3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_857b3]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_857b3.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_857b3.dir/CMakeCCompilerABI.c.o  -o cmTC_857b3 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_31444/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_31444.dir/build.make CMakeFiles/cmTC_31444.dir/build]
+  ignore line: [make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_31444.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_31444.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_31444]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31444.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_31444.dir/CMakeCCompilerABI.c.o  -o cmTC_31444 -rdynamic  ]
   ignore line: [使用内建 specs。]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc 版本 5.3.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_857b3' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrg0fTC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_857b3 /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_857b3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_31444' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc731tBo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_31444 /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_31444.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccrg0fTC.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc731tBo.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -106,7 +106,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_857b3] ==> ignore
+    arg [cmTC_31444] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..]
-    arg [CMakeFiles/cmTC_857b3.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_31444.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -144,17 +144,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp
+Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d48c0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d48c0.dir/build.make CMakeFiles/cmTC_d48c0.dir/build
-make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d48c0.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_d48c0.dir/feature_tests.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d48c0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d48c0.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_d48c0.dir/feature_tests.c.o  -o cmTC_d48c0 -rdynamic 
-make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_225f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_225f4.dir/build.make CMakeFiles/cmTC_225f4.dir/build
+make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_225f4.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_225f4.dir/feature_tests.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_225f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_225f4.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_225f4.dir/feature_tests.c.o  -o cmTC_225f4 -rdynamic 
+make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -164,17 +164,17 @@ make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/D
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp
+Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_badd5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_badd5.dir/build.make CMakeFiles/cmTC_badd5.dir/build
-make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_badd5.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_badd5.dir/feature_tests.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_badd5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_badd5.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_badd5.dir/feature_tests.c.o  -o cmTC_badd5 -rdynamic 
-make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_92a8f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_92a8f.dir/build.make CMakeFiles/cmTC_92a8f.dir/build
+make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92a8f.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_92a8f.dir/feature_tests.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_92a8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92a8f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_92a8f.dir/feature_tests.c.o  -o cmTC_92a8f -rdynamic 
+make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -184,17 +184,17 @@ make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/D
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp
+Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b005d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b005d.dir/build.make CMakeFiles/cmTC_b005d.dir/build
-make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b005d.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_b005d.dir/feature_tests.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b005d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b005d.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_b005d.dir/feature_tests.c.o  -o cmTC_b005d -rdynamic 
-make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0c8a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c8a7.dir/build.make CMakeFiles/cmTC_0c8a7.dir/build
+make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c8a7.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_0c8a7.dir/feature_tests.c.o   -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0c8a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c8a7.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_0c8a7.dir/feature_tests.c.o  -o cmTC_0c8a7 -rdynamic 
+make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -202,30 +202,30 @@ make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/D
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp
+Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_90346/fast"
-/usr/bin/make -f CMakeFiles/cmTC_90346.dir/build.make CMakeFiles/cmTC_90346.dir/build
-make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_90346.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_90346.dir/testCXXCompiler.cxx.o -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_90346
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90346.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_90346.dir/testCXXCompiler.cxx.o  -o cmTC_90346 -rdynamic 
-make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_deadf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_deadf.dir/build.make CMakeFiles/cmTC_deadf.dir/build
+make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_deadf.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_deadf.dir/testCXXCompiler.cxx.o -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_deadf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_deadf.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_deadf.dir/testCXXCompiler.cxx.o  -o cmTC_deadf -rdynamic 
+make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp
+Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_677ae/fast"
-/usr/bin/make -f CMakeFiles/cmTC_677ae.dir/build.make CMakeFiles/cmTC_677ae.dir/build
-make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_677ae.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_677ae.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_677ae
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_677ae.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_677ae.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_677ae -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_fca48/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fca48.dir/build.make CMakeFiles/cmTC_fca48.dir/build
+make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fca48.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_fca48.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_fca48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fca48.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_fca48.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_fca48 -rdynamic  
 使用内建 specs。
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper
@@ -235,23 +235,23 @@ COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper
 gcc 版本 5.3.0 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_677ae' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoh91z2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_677ae /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_677ae.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o
-make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fca48' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cclhWJzQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_fca48 /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_fca48.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o
+make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_677ae/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_677ae.dir/build.make CMakeFiles/cmTC_677ae.dir/build]
-  ignore line: [make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_677ae.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_677ae.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_677ae]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_677ae.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_677ae.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_677ae -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_fca48/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_fca48.dir/build.make CMakeFiles/cmTC_fca48.dir/build]
+  ignore line: [make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_fca48.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_fca48.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_fca48]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fca48.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_fca48.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_fca48 -rdynamic  ]
   ignore line: [使用内建 specs。]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper]
@@ -261,13 +261,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc 版本 5.3.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_677ae' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoh91z2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_677ae /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_677ae.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fca48' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cclhWJzQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_fca48 /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_fca48.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccoh91z2.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cclhWJzQ.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -282,7 +282,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_677ae] ==> ignore
+    arg [cmTC_fca48] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o] ==> ignore
@@ -291,7 +291,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..]
-    arg [CMakeFiles/cmTC_677ae.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_fca48.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -318,17 +318,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp
+Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_234ff/fast"
-/usr/bin/make -f CMakeFiles/cmTC_234ff.dir/build.make CMakeFiles/cmTC_234ff.dir/build
-make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_234ff.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_234ff.dir/feature_tests.cxx.o -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_234ff
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_234ff.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_234ff.dir/feature_tests.cxx.o  -o cmTC_234ff -rdynamic 
-make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5bf4f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5bf4f.dir/build.make CMakeFiles/cmTC_5bf4f.dir/build
+make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5bf4f.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_5bf4f.dir/feature_tests.cxx.o -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5bf4f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bf4f.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_5bf4f.dir/feature_tests.cxx.o  -o cmTC_5bf4f -rdynamic 
+make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -391,17 +391,17 @@ make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/D
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp
+Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2ea98/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2ea98.dir/build.make CMakeFiles/cmTC_2ea98.dir/build
-make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2ea98.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_2ea98.dir/feature_tests.cxx.o -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2ea98
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ea98.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_2ea98.dir/feature_tests.cxx.o  -o cmTC_2ea98 -rdynamic 
-make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ba52a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba52a.dir/build.make CMakeFiles/cmTC_ba52a.dir/build
+make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ba52a.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_ba52a.dir/feature_tests.cxx.o -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ba52a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba52a.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ba52a.dir/feature_tests.cxx.o  -o cmTC_ba52a -rdynamic 
+make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -464,17 +464,17 @@ make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/D
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp
+Change Dir: /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2cb3e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2cb3e.dir/build.make CMakeFiles/cmTC_2cb3e.dir/build
-make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2cb3e.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_2cb3e.dir/feature_tests.cxx.o -c /home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2cb3e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cb3e.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_2cb3e.dir/feature_tests.cxx.o  -o cmTC_2cb3e -rdynamic 
-make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7_Templete/Drivers/Build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_61c8f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61c8f.dir/build.make CMakeFiles/cmTC_61c8f.dir/build
+make[1]: Entering directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_61c8f.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_61c8f.dir/feature_tests.cxx.o -c /home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_61c8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61c8f.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_61c8f.dir/feature_tests.cxx.o  -o cmTC_61c8f -rdynamic 
+make[1]: Leaving directory '/home/wangxian/Code/STM32/STM32F7/STM32F7-CMake-Template/Drivers/Build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
